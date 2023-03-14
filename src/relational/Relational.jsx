@@ -1,21 +1,25 @@
-import React, { useState } from 'react'
-/* eslint-disable */
-const Relational = () => {
-    const [nilai] = useState(0)
-    
-
-    const displayMessage = () => {
-    const nilai = 60
-        if(nilai < 50 ) {
-            return <p>Tidak Lulus</p>
-        }
-        else 
-        if (nilai > 50)
-            return <p>Lulus</p>
+import React from 'react';
+  
+function Relational() {
+   
+ function SwitchCase(props) {
+    switch(props.value) {
+      case '100 > 50':
+        return 'Lulus';
+      case '100 /= 2':
+        return 'Tidak sesuai';
+      default:
+        return '';
     }
+  }
+  
   return (
-    <div>{(displayMessage())}</div>
-  )
+    <div>
+  
+        <SwitchCase value={'100 > 50'} />
+  
+    </div>
+  );
 }
-
-export default Relational
+    
+export default Relational;
