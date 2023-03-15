@@ -1,5 +1,8 @@
 import React from 'react'
-import Container from './container/Container'
+// import Container from './container/Container'
+// import Header from './component/header/Header'
+// import Banner from './component/banner/Banner'
+// import Footer from './component/footer/Footer'
 // import Logical from './logical/Logical.jsx'
 // import Conditional from './if-else/Conditional.jsx'
 // import Loop1 from './looping/Loop1.jsx'
@@ -9,13 +12,20 @@ import Container from './container/Container'
 // import Relational from './relational/Relational.jsx'
 // import Array from './array/Array.jsx'
 // import Map from './functionmap/Map.jsx'
+import Form from './container/form/Form'
 
 const App = () => {
   return (
+    // <div>
+    //   <Header />
+    //   <Banner />
+    // <div>
+    // <Container />
+    // </div>
+    //   <Footer />
+    // </div>
     <div>
-
-      <Container />
-
+      <Form />
     </div>
   )
 }

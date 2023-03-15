@@ -13,6 +13,9 @@ export default class ClassComponent extends Component {
   render() {
     
     const { name, age, isMale } = this.state
+
+    // ======== Jika tidak menggunakan this.props "Iam feeling" ========
+    // const { emotion }
     return (
       <div>
         <h1>My name is {name}</h1>

@@ -1,0 +1,9 @@
+.btn {
+    border-color: cornflowerblue;
+    color: cornflowerblue;
+}
+
+.btn:hover {
+    background-color: cornflowerblue;
+    color: white;
+}

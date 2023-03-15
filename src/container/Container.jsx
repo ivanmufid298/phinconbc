@@ -13,8 +13,10 @@ import "./container.css"
 
 const Container = () => {
   return (
-    <div className="container">
-      <div className='card'>
+    <div className=" bg-dark">
+      <div className="row ">
+        <div className="col-6">
+        <div className='card'>
         <h1>
           Kondisi dimana x dibawah 20 tidak lulus
         </h1>
@@ -39,8 +41,9 @@ const Container = () => {
         <h1>Loop dengan Map</h1>
         <Loop3 />
       </div>
-
-      <div className='card'>
+        </div>
+        <div className="col-6">
+        <div className='card'>
         <h1>
           Operators
         </h1>
@@ -78,6 +81,10 @@ const Container = () => {
       <div className='card'>
           <ClassComponent />
       </div>
+        </div>
+      </div>
+
+      
 
     </div>
   )
