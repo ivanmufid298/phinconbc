@@ -1,0 +1,102 @@
+.container {
+    padding: 100px;
+    column-count: 2;
+    column-gap: 100px;
+    background-color: antiquewhite;
+    
+}
+
+
+h1{
+    color: rgb(89, 121, 180);
+}
+
+.card {
+    border-style: solid;
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border-color: transparent;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.loop1 {
+    border-style: solid;
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border-color: transparent;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.loop2 {
+    border-style: solid;
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border-color: transparent;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.loop3 {
+    border-style: solid;
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border-color: transparent;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.operators {
+    border-style: solid;
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border-color: transparent;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.relasional {
+    border-style: solid;
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border-color: transparent;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logical {
+    border-style: solid;
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border-color: transparent;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.array {
+    border-style: solid;
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border-color: transparent;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.map {
+    border-style: solid;
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border-color: transparent;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.1);
+}
