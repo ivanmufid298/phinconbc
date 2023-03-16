@@ -49,24 +49,49 @@ h4{
 }
 
 .card {
-    border-style: solid;
     background-color:rgba(255,255,255,.8);
     padding: 10px;
     margin-top: 10px;
-    border-color: transparent;
     border-radius: 10px 10px 10px 10px;
     box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.3);
 }
 .grid-container {
     display: grid;
-    gap: 50px;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto  ;
     background-color: transparent;
     padding: 100px;
     margin: auto;
+    /* gap: 50px; */
+  }
+.card2 {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: auto auto auto ;
+    background-color: transparent;
+    padding: 100px;
+    background-color:rgba(255,255,255,.8);
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.3);
+    /* display: flex; */
+    /* flex-wrap: wrap; */
   }
   
-  .grid-item {
-    padding: 20px;
+  .grid-item1 {
+    padding: 50px;
     text-align: center;
+    grid-row-end: span 3;
   }
+
+  /* @media (min-width: 40rem) {
+    .cards .grid-container {
+      width: 50%;
+    }
+  }
+  
+  @media (min-width: 56rem) {
+    .cards .grid-container {
+      width: 33.3333%;
+    }
+  } */

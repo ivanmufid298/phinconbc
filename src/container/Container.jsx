@@ -17,58 +17,62 @@ const Container = () => {
       <div className="bg"></div>
       <div className="bg bg2"></div>
       <div className="bg bg3"></div>
-      <div className='card grid-item'>
+      <div className='card grid-item1'>
         <h1>
           Kondisi dimana x dibawah 20 tidak lulus
         </h1>
         <Conditional />
       </div>
 
-      <div className='card grid-item'>
+      <div className="card2 grid">
+      <div className='card grid-item2'>
         <h1>
           Loop dengan for
         </h1>
         <Loop1 />
       </div>
 
-      <div className='card grid-item'>
+      <div className='card grid-item3'>
         <h1>
           Loop dengan for each
         </h1>
         <Loop2 />
       </div>
 
-      <div className='card grid-item'>
+      <div className='card grid-item4'>
         <h1>Loop dengan Map</h1>
         <Loop3 />
       </div>
-      <div className='card grid-item'>
+      <div className='card grid-item5'>
         <h1>
           Operators
         </h1>
           <Operators />
       </div>
 
-      <div className='card grid-item'>
+      <div className='card grid-item6'>
         <h1>
           Relasional
         </h1>
           <Relational />
       </div>
 
-      <div className='card grid-item'>
+      <div className='card grid-item7'>
         <h1>
           Logical
         </h1>
           <Logical />
       </div>
 
-      <div className='card grid-item'>
+      <div className='card grid-item8'>
         <h1>
           Array
         </h1>
           <Array />
       </div>
+      </div>
+
+      
 
       {/* <div className='card grid-item'>
         <h1>

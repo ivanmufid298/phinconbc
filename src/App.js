@@ -13,12 +13,14 @@ import Footer from './component/footer/Footer'
 // import Array from './array/Array.jsx'
 // import Map from './functionmap/Map.jsx'
 // import Form from './container/form/Form'
+// import Grid from './container/grid/Grid'
 
 const App = () => {
   return (
     <div>
     <Header />
     <Container />
+    {/* <Grid /> */}
     <Footer />
     </div>
     // <div>
