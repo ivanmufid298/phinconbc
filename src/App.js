@@ -1,8 +1,10 @@
 import React from 'react'
-import Container from './container/Container'
+// import Container from './container/Container'
 import Header from './component/header/Header'
 // import Banner from './component/banner/Banner'
 import Footer from './component/footer/Footer'
+import ChangeColor from './container/changecolor/ChangeColor'
+// import PropsParent from './container/propsparent/PropsParent'
 // import Logical from './logical/Logical.jsx'
 // import Conditional from './if-else/Conditional.jsx'
 // import Loop1 from './looping/Loop1.jsx'
@@ -19,8 +21,10 @@ const App = () => {
   return (
     <div>
     <Header />
-    <Container />
+    {/* <Container /> */}
     {/* <Grid /> */}
+    {/* <PropsParent /> */}
+    <ChangeColor />
     <Footer />
     </div>
     // <div>
