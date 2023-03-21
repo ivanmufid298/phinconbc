@@ -1,9 +1,10 @@
 import React from 'react'
+import DeleteImage from './component/deleteimage/DeleteImage'
 // import Container from './container/Container'
 // import Header from './component/header/Header'
 // import Banner from './component/banner/Banner'
 // import Footer from './component/footer/Footer'
-import LifeCycle from './component/lifecycle/LifeCycle'
+// import LifeCycle from './component/lifecycle/LifeCycle'
 // import Logical from './logical/Logical.jsx'
 // import Conditional from './if-else/Conditional.jsx'
 // import Loop1 from './looping/Loop1.jsx'
@@ -29,8 +30,8 @@ const App = () => {
     {/* <PropsParent /> */}
     {/* <ChangeColor /> */}
 
-    <LifeCycle />
-
+    {/* <LifeCycle /> */}
+    <DeleteImage />
     {/* <Footer /> */}
     </div>
     // <div>
