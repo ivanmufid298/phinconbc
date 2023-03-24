@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Modal = () => {
   return (
@@ -10,13 +11,16 @@ const Modal = () => {
         <div class="modal-dialog">
             <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <h5 class="modal-title" id="exampleModalLabel">Selamat datang kembali</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
-                <h1>Hello World</h1>
+                <h1 className="caption">Anda Berhasil Login !</h1>
+                <button type="button" class="btn btn-primary">
+                <Link to="/Home" >Ok!</Link>
+                </button>
             </div>
             </div>
         </div>
